@@ -1,6 +1,6 @@
 const { from } = require('rxjs');
 const { filter } = require('rxjs/operators');
-
+//adding functions to the array prototype
 Array.prototype.even = function () {
    var evenFunct = function () {
         var evennumbers = [];
