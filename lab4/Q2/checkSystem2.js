@@ -1,4 +1,3 @@
-{
 
     const { Observable } = require('rxjs');
 
@@ -56,4 +55,3 @@
 
     );
 
-}
