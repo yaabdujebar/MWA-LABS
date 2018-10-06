@@ -1,4 +1,3 @@
-{
 
     const { Observable, of } = require('rxjs');
 
@@ -100,4 +99,3 @@
 
     checkSystem();
 
-}
