@@ -20,8 +20,8 @@
 
         console.log(req.url);
 
-        let urlObj = url.parse(req.url, true).query;/// should be: ?url=../../files/file3.txt
-
+        let urlObj = url.parse(req.url, true).query;
+        
         if(urlObj.url == undefined) {
 
             console.log('url param empty');
