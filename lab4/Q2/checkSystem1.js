@@ -1,4 +1,4 @@
-{
+
 
     const os = require('os');
 
@@ -46,4 +46,3 @@
 
     checkSystem();
 
-}
