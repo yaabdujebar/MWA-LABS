@@ -8,15 +8,14 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'exercise1';
 
   private arrayItems: Array<object>;
 
   constructor() {
-    this.arrayItems = [{ name: 'Edwin', color: '#b00404' }, 
-    { name: 'Alejandro', color: '#00aaff' }, 
-    { name: 'Cobos', color: '#04b04a' }, 
-    { name: 'Fonseca', color: '#a704b0' }];
+    this.arrayItems = [{ name: 'eti', color: 'red' }, 
+    { name: 'mamie', color: 'yellow' }, 
+    { name: 'semi', color: 'green' }, 
+    { name: 'yah', color: 'blue' }];
   }
 
 }
