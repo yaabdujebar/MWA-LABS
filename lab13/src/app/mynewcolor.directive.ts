@@ -3,6 +3,8 @@ import { Directive, Input, HostBinding, HostListener, Output, EventEmitter, Elem
 @Directive({
   selector: '[appMynewcolor]'
 })
+
+
 export class MynewcolorDirective {
 
   @HostBinding('style.color') colorStyle;
